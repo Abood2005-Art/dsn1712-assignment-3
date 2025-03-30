@@ -55,7 +55,7 @@
 
     header ul a{
     color: #fff;
-    
+    text-decoration: none;
     padding: 0px 5px;
     }
 
@@ -79,7 +79,7 @@
             max-width: 60%;  
             margin: 0 auto; 
         
-           
+            text-shadow: 1px 1px 2px black;
             background-color: rgba(0, 0, 0, 0.5);   
             padding: 20px;  
             color: #fff;  
@@ -169,7 +169,7 @@
         margin-bottom: 2em;
     }
     
-   
+    #services a:link,
     #services a:visited{
         margin-top: auto;
         display: inline-block;
@@ -180,7 +180,7 @@
        
     }
     
-  
+    
     #services a:focus{
         background-color: #fff;
         color: #000;
@@ -190,7 +190,9 @@
         margin-bottom: 0;
       }
       
-      
+      .grid article p {
+        padding-bottom: 2em;
+      }
       
       
       
